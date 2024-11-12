@@ -1,0 +1,23 @@
+.dashboard-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.dash-cards{
+    border: 2px solid grey;
+    border-radius: 5px;
+    position: relative;
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    width: 250px;
+}

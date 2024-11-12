@@ -1,0 +1,108 @@
+:root {
+    --Very-dark-desaturated-blue: hsl(0, 0%, 100%);
+    --Soft-red: hsl(101, 62%, 31%);
+
+    --Very-dark-grayish-blue: hsl(0, 0%, 100%);
+    --Dark-grayish-blue: hsl(0, 0%, 100%);
+
+    --Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+
+#ulfaqs {
+    width: 90%;
+    list-style: none;
+}
+
+.containerfaqs {
+    margin-bottom: 25px;
+    color: var(--Light-grayish-blue);
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    background: rgba(37, 101, 58, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(37, 101, 58, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    gap: 60px;
+}
+
+.wrapper_2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.heading1 {
+    border-bottom: 1px solid var(--Light-grayish-blue);
+    margin-bottom: 15px;
+}
+#ulfaqs .heading1 .question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--Very-dark-grayish-blue);
+    margin-bottom: 15px;
+}
+
+#ulfaqs .heading1 img {
+    width: 10px;
+    height: 8px;
+}
+
+.reply {
+    display: none;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    width: 100%;
+    color: var(--Dark-grayish-blue);
+}
+
+.arrow-down.active{
+    rotate: 180deg;
+}
+    
+.question.active {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 414px) {
+    .containerfaqs {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .wrapper_2 {
+      max-width: 100%;
+    }
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .question {
+      cursor: pointer;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .reply {
+      display: none;
+      padding: 10px;
+    }
+  
+    .question.active + .reply {
+      display: block;
+    }
+  }
+  

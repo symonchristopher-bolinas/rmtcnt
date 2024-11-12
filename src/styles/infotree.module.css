@@ -1,0 +1,135 @@
+.infotreepage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 42, 3, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(4, 42, 3, 0.05);
+  overflow-x: hidden;
+
+}
+
+.paradescrip {
+  padding: 5%;
+  display: flex;
+  color: white;
+}
+
+.sliderBg {
+  position: relative;
+  overflow: auto;
+  height: 100%;
+  width: 400px;
+}
+
+
+@keyframes showcontent1 {
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.arrows {
+  text-align: right;
+}
+
+.arrows button {
+  background-color: #eee5;
+  border: none;
+  font-family: monospace;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: x-large;
+  color: #eee;
+  transition: 0.5s;
+}
+
+.arrows button:hover {
+  background-color: #eee;
+  color: black;
+}
+
+
+@media screen and (max-width: 678px) {
+  .thumbnail {
+    justify-content: flex-start;
+  }
+
+  .arrows {
+    position: relative;
+    text-align: right;
+  }
+
+  .sliderBg {
+    position: relative;
+    width: 250px;
+    overflow: auto;
+    height: 100%;
+    width: 350px;
+  }
+
+  .nametree {
+    text-align: center;
+  }
+}
+
+.thumbnailImage {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.thumbnailImage.hover,
+.thumbnailImage.active {
+  opacity: 1;
+}
+
+
+
+.thumbnailItem {
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.thumbnailImage {
+  width: 200px;
+  height: 250px;
+  display: block;
+  border-radius: 20px;
+}
+
+.thumbnailTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 12px;
+  padding: 2px 0;
+}
+
+@media (max-width: 767.98px) {
+  .col-md-9 {
+    width: 100%;
+  }
+
+  .thumbnailTitle {
+    font-size: 10px;
+    padding: 1px 0;
+  }
+
+}

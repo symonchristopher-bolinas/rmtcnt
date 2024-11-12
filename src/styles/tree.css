@@ -1,0 +1,330 @@
+.tree-title {
+  font-size: 50px;
+  color: #f0f0f0;
+}
+
+.overview12 {
+  font-size: xx-large;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 3px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  margin: 0 50px;
+}
+
+.overview13 {
+  font-size: 38px;
+  -webkit-text-fill-color: lightgreen;
+  position: relative;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 3px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  margin: 0 50px;
+  max-width: 300px;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+#containerhome {
+  min-width: 100%;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Satisfy", cursive;
+  text-align: justify;
+  color: #f0f0f0;
+}
+
+
+.italic {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card2 {
+  background: rgba(255, 255, 252, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 252, 0.27);
+  margin: 5%;
+  padding: 5%;
+}
+
+.card_tree {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #2b6024;
+}
+
+.button_view {
+  all: unset;
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonpopup {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_view:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.button_view::after,
+.button_view::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button_view::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #63ad68;
+  border-radius: 10px;
+}
+
+.button_view::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #2b6024;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button_view:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button_view:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button_view:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.title-head {
+  font-family: "Satisfy", cursive;
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content1 {
+  background: rgba(138, 154, 91, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  padding: 20px;
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(138, 154, 91, 0.3);
+  color: #f0f0f0;
+}
+
+
+
+/*tree.js*/
+
+
+
+.tree-section .text {
+  text-align: center;
+  position: relative;
+  color: lightgreen;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 3px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  margin: 0 auto;
+  max-width: 125px;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+#addtreelabel {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  display: inherit;
+  width: 150px;
+
+}
+
+.fieldlabels[type="text"],
+.fieldlabels[type="file"] {
+  padding: 8px;
+  border-radius: 0;
+  font-size: 16px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  width: calc(100% - 50px);
+  color: #ffffff;
+}
+
+.fieldlabels[type="text"]:focus,
+.fieldlabels[type="file"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.fieldlabels[type="file"] {
+  padding: 6px;
+}
+
+.fieldlabels[type="file"]::file-selector-button {
+  border-radius: 0;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.fieldlabels[type="file"]::file-selector-button:hover {
+  background: none;
+}
+
+.addtreebtn {
+  border: 2px solid green;
+  background-color: lightgreen;
+  border-radius: 5px;
+  position: relative;
+  width: 100px;
+  font-style: normal;
+  font-size: medium;
+  font-weight: bold;
+  --bs-link-color: #000000;
+  float: right;
+}
+
+
+.submitbtntree {
+  border: 2px solid green;
+  background-color: lightgreen;
+  border-radius: 5px;
+  position: absolute;
+  font-style: normal;
+  font-size: medium;
+  font-weight: bold;
+  --bs-link-color: #000000;
+  padding: 5px;
+  left: 10%;
+  right: 10%;
+}
+
+.nav_bartree {
+  position: relative;
+  font-style: normal;
+  font-size: medium;
+  font-weight: bold;
+  --bs-link-color: #000000;
+}
+
+.nav_bartree:hover {
+  --bs-link-hover-color: lightgreen;
+}
+
+
+/*admindashbord.js*/
+#qrtable {
+  background: rgba(255, 255, 252, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  padding-top: 15px;
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 252, 0.27);
+}
+
+.headtable {
+  background: #63ad68;
+}
+

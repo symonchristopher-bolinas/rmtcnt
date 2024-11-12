@@ -1,0 +1,57 @@
+[
+    {
+        "treeInstanceId": "BIGNAY1",
+        "speciesId": "FIT-BY01",
+        "latitude": 14.413167,
+        "longitude": 121.448300
+    },
+    {
+        "treeInstanceId": "BIGNAY2",
+        "speciesId": "FIT-BY01",
+        "latitude": 14.413100,
+        "longitude": 121.448333
+    },
+    {
+        "treeInstanceId": "BIGNAY3",
+        "speciesId": "FIT-BY01",
+        "latitude": 14.413200,
+        "longitude": 121.448200
+    },
+    {
+        "treeInstanceId": "LIPOTE1",
+        "speciesId": "FIT-LP01",
+        "latitude": 14.412317,
+        "longitude": 121.447583
+    },
+    {
+        "treeInstanceId": "LIPOTE2",
+        "speciesId": "FIT-LP01",
+        "latitude": 14.412317,
+        "longitude": 121.447583
+    },
+    {
+        "treeInstanceId": "LIPOTE3",
+        "speciesId": "FIT-LP01",
+        "latitude": 14.412283,
+        "longitude": 121.447617
+    },
+    {
+        "treeInstanceId": "KATMON1",
+        "speciesId": "FIT-KM01",
+        "latitude": 14.412383,
+        "longitude": 121.448017
+    },
+    {
+        "treeInstanceId": "KATMON2",
+        "speciesId": "FIT-KM01",
+        "latitude": 14.412400,
+        "longitude": 121.448067
+    },
+    {
+        "treeInstanceId": "KATMON3",
+        "speciesId": "FIT-KM01",
+        "latitude": 14.412367,
+        "longitude": 121.448083
+    }
+
+]

@@ -1,0 +1,189 @@
+     :root {
+         --primary-color: #4CAF50;
+         --secondary-color: #C8E6C9;
+     }
+
+
+     #myForm {
+         background-color: #fff;
+         border-radius: 10px;
+         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+         padding: 30px;
+         margin-bottom: 30px;
+         margin-left: 10%;
+         margin-right: 10%;
+     }
+
+     #myForm label {
+         color: var(--primary-color);
+         font-weight: bold;
+     }
+
+     #myForm input[type="text"],
+     #myForm input[type="email"],
+     #myForm input[type="file"],
+     #myForm textarea {
+         border: 1px solid #ddd;
+         border-radius: 5px;
+         padding: 10px;
+         margin-bottom: 20px;
+     }
+
+     #myForm button[type="submit"] {
+         background-color: var(--primary-color);
+         width: 100%;
+         border: none;
+         color: #fff;
+         padding: 10px 20px;
+         border-radius: 5px;
+         cursor: pointer;
+     }
+
+     #myForm button[type="submit"]:hover {
+         background-color: #45a049;
+     }
+
+
+     .carouselItem {
+         text-align: center;
+         transition: transform 0.5s ease;
+     }
+
+     .carouselItem.active {
+         transform: scale(1.05);
+     }
+
+     .carouselInner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        flex: 1;
+        margin: 0 10px; /* Adjust as necessary for spacing */
+        background-color: none;
+        color: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .cardBody {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .buttonView {
+        display: inline-block;
+        margin-top: auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    @media (max-width: 768px) {
+        .card {
+            flex: 0 0 100%;
+            margin-bottom: 20px; /* Space between rows */
+        }
+    }
+    
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .card {
+            flex: 0 0 48%;
+            margin-bottom: 20px; /* Space between rows */
+        }
+    }
+    
+    @media (min-width: 1025px) {
+        .card {
+            flex: 0 0 30%;
+            margin-bottom: 20px; /* Space between rows */
+        }
+    }
+
+     .cardTitle {
+         font-weight: bold;
+         color: var(--primary-color);
+     }
+
+     .cardText {
+         color: #333;
+     }
+
+     .cardText small {
+         color: #999;
+     }
+
+     .cardImg {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+
+     }
+
+     .carouselInner {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .carouselItem {
+        flex: 1;
+        text-align: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    .carouselImg {
+        width: 450px;
+        height: 250px;
+        object-fit: cover;
+    }
+    
+
+    .carousel{
+        position: relative;
+    }
+
+    @media (max-width: 999px) {
+        .carousel {
+            position: relative;
+            padding-top: 10%;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .carousel {
+            position: relative;
+            padding-top: 5%;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .carousel {
+            position: relative;
+            padding-top: 30%;
+        }
+      }
+      @media (max-width: 650px) {
+        .carousel {
+            position: relative;
+            padding-top: 40%;
+        }
+      }

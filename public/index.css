@@ -1,0 +1,160 @@
+.card1 {
+  background: rgba(255, 255, 252, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 252, 0.27);
+  margin: 100px;
+  padding: 5%;
+}
+
+.mapContainer {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 650px;
+  pointer-events: auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+.mapContainerAdminMap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 650px;
+  pointer-events: auto;
+  border-radius: 30px;
+  position: relative;
+  margin-bottom: 20%;
+}
+
+.treelist {
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  pointer-events: auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+.gallerys {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  pointer-events: auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+.faqss {
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 170px;
+  text-align: center;
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+}
+
+.footer1{
+  position: relative;
+}
+
+@media only screen and (max-width: 770px) {
+  .treelist {
+    padding-top: 500px;
+  }
+  .faqss {
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 500px;
+  }
+}
+
+#test {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+
+.grid2 {
+  grid-area: header;
+}
+
+.grid1 {
+  grid-area: menu;
+}
+
+.grid3 {
+  grid-area: main;
+}
+
+.grid4 {
+  grid-area: footer;
+}
+
+.grid-container {
+  background: rgba(255, 255, 252, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 252, 0.27);
+  display: grid;
+  grid-template-rows: 40px 1fr 1fr;
+  grid-template-areas:
+    'menu menu menu header header header'
+    'menu menu menu main main main'
+    'menu menu menu footer footer footer'
+  ;
+  gap: 10px;
+  grid-template-rows: 35px 1fr;
+  grid-template-columns: 150px 1fr;
+  padding: 10px;
+}
+
+.grid-container>div {
+  background: none;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#particles-js {
+  background: black;
+  height: 100vh;
+}
+
+/*scroll*/
+
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgreen;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: green;
+}

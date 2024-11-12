@@ -1,0 +1,201 @@
+{
+    "FIT-BY01": {
+        "imgUrl": 
+            [
+                "../img/bignay/bignay.JPG",
+                "../img/bignay/bignay1.JPG",
+                "../img/bignay/bignay2.JPG",
+                "../img/bignay/bignay3.JPG",
+                "../img/bignay/bignay4.JPG"
+            ],
+        "name": "Bignay",
+        "scientificName": "Antidesma bunius",
+        "description": "Bignay is a small, evergreen tree native to Southeast Asia and Northern Australia. It is known for its edible fruit, which can be eaten fresh or used in jams, jellies, syrups, and wine.",
+        "otherNames": [
+            "Wild Cherry",
+            "Currant Tree",
+            "Chinese Laurel",
+            "Queensland Cherry",
+            "Salamander Tree",
+            "Bugnay",
+            "Bignai",
+            "Mamao Dong"
+        ],
+        "treeCycle": "Perennial",
+        "fruitingMonths": "April to September",
+        "treeStatus": "Flowering",
+        "treeSpecies": "Indigenous Fruit Tree",
+        "fruitColour": "Unripe fruits are greenish-white, turning deep purplish red when ripe.",
+        "pestIdentified": [
+            "Termites",
+            "Mealybugs",
+            "Scale insects",
+            "Sooty mold"
+        ],
+        "floweringDescription": "Flowers are small and petal-less, with male and female flowers borne on separate trees if seed is grown.",
+        "fruitingDescription": "Bignay produces grape-like clusters of 20-30 fruits, each half a centimetre in diameter, containing a single seed.",
+        "unripeFruitDescription": "When unripe, the fruits are green and may have a slightly astringent taste.",
+        "ripeFruitDescription": "Ripe bignay fruits are dark purple to black and have a sweet and tart flavour."
+    },
+    "FIT-LP01": {
+        "imgUrl": [
+            "../img/lipote/lipote.jpg",
+            "../img/lipote/lipote1.jpg",
+            "../img/lipote/lipote.jpg",
+            "../img/lipote/lipote1.jpg",
+            "../img/lipote/lipote.jpg"
+        ],
+        "name": "Lipote",
+        "scientificName": "Syzygium polycephaloides (C.B.Rob.)",
+        "description": "Lipote is a small to medium-sized tree, reaching up to 14 meters tall. It grows in primary forests at low to medium elevations. It is endemic to the Philippines, originating from low to medium elevated forests in Luzon and some parts of Visayas.",
+        "otherNames": [
+            "Bahag",
+            "Baligang",
+            "Igot"
+        ],
+        "treeCycle": "Perennial",
+        "fruitingMonths": "March to July",
+        "treeStatus": "Flowering",
+        "treeSpecies": "Indigenous Fruit Tree",
+        "fruitColour": "Its branches become adorned with clusters of small, round fruits, their hues ranging from deep red to a mesmerising dark purple.",
+        "pestIdentified": [
+            "Red ants"
+        ],
+        "floweringDescription": "Before the fruits emerge, the Lipote tree unveils a delicate dance of white flowers. These tiny floral wonders, clustered together, paint the tree with a subtle elegance, attracting pollinators and promising the arrival of its delicious bounty.",
+        "fruitingDescription": "The fruits, measuring a mere 1-2.5 cm in diameter, gather in compact clusters, sometimes containing up to 50 individual fruits.",
+        "unripeFruitDescription": "As the fruits begin their journey from bud to edible delights, they wear a cloak of green. Their taste, though, hints at their future sweetness, offering a slightly tart experience.",
+        "ripeFruitDescription": "When the time is right, the unripe green transforms into a captivating display of red and dark purple. The crisp and dry flesh reveals a mildly sour flavor."
+    },
+    "FIT-KM01": {
+        "imgUrl": [
+            "../img/tambis/tambis.jpg",
+            "../img/tambis/tambis1.jpg",
+            "../img/tambis/tambis.jpg",
+            "../img/tambis/tambis1.jpg",
+            "../img/tambis/tambis.jpg"
+        ],
+        "name": "Katmon",
+        "scientificName": "Dillenia philippinensis",
+        "description": "Katmon is a small to medium-sized evergreen tree, reaching up to 15 meters in height. It is native to the Philippines, found in low to medium altitude forests throughout the country.",
+        "otherNames": [
+            "Kalambok",
+            "Kalambug (Bagobo)",
+            "Katmon (Bikol)",
+            "Balale, Palali (Ibanag)",
+            "Palali (Iloko)",
+            "Bihis, Biskan (Igorot)",
+            "Kalamnugui (Lanao)",
+            "Palali, Pamamalien (Pangsingan)",
+            "Bolobayauak (Panay- Bisaya)",
+            "Katmon (Pampangan)",
+            "Diangin (Sambali)",
+            "Kambug (Sulu)",
+            "Katmon (Tagalog)",
+            "Elephant Apple",
+            "Hondapara Tree",
+            "Indian Catmon",
+            "Ma-tad",
+            "Chalita"
+        ],
+        "treeCycle": "Perennial",
+        "fruitingMonths": "April to May",
+        "treeStatus": "Bearing",
+        "treeSpecies": "Indigenous Fruit Tree",
+        "fruitColour": "The fruit, known as 'elephant apple,' is globose, 5-6 cm across, with a soft, fleshy, green, and edible pulp.",
+        "pestIdentified": [
+            "Fruit borers",
+            "Fruit flies",
+            "Aphids"
+        ],
+        "floweringDescription": "Flowers are large, white, showy, and about 15 cm across. They consist of five pale green cup-shaped sepals, five obovate and spreading white petals, and are dark red with white tips in the upper half of the length and yellow in the basal half.",
+        "fruitingDescription": "The whole fruit and the flesh of 'Katmon' that are fully ripe had yellowish green color while the flesh is greenish. The fruit is fleshy, globose and has an average weight of 73.9g, 4.72 cm long and 5.73 cm wide."
+    },
+    "FIT-PT01": {
+        "imgUrl": [
+            "../img/tambis/tambis.jpg",
+            "../img/tambis/tambis1.jpg",
+            "../img/tambis/tambis.jpg",
+            "../img/tambis/tambis1.jpg",
+            "../img/tambis/tambis.jpg"
+        ],
+        "name": "Pitanga",
+        "scientificName": "Dillenia philippinensis",
+        "description": "Katmon is a small to medium-sized evergreen tree, reaching up to 15 meters in height. It is native to the Philippines, found in low to medium altitude forests throughout the country.",
+        "otherNames": [
+            "Kalambok",
+            "Kalambug (Bagobo)",
+            "Katmon (Bikol)",
+            "Balale, Palali (Ibanag)",
+            "Palali (Iloko)",
+            "Bihis, Biskan (Igorot)",
+            "Kalamnugui (Lanao)",
+            "Palali, Pamamalien (Pangsingan)",
+            "Bolobayauak (Panay- Bisaya)",
+            "Katmon (Pampangan)",
+            "Diangin (Sambali)",
+            "Kambug (Sulu)",
+            "Katmon (Tagalog)",
+            "Elephant Apple",
+            "Hondapara Tree",
+            "Indian Catmon",
+            "Ma-tad",
+            "Chalita"
+        ],
+        "treeCycle": "Perennial",
+        "fruitingMonths": "April to May",
+        "treeStatus": "Bearing",
+        "treeSpecies": "Indigenous Fruit Tree",
+        "fruitColour": "The fruit, known as 'elephant apple,' is globose, 5-6 cm across, with a soft, fleshy, green, and edible pulp.",
+        "pestIdentified": [
+            "Fruit borers",
+            "Fruit flies",
+            "Aphids"
+        ],
+        "floweringDescription": "Flowers are large, white, showy, and about 15 cm across. They consist of five pale green cup-shaped sepals, five obovate and spreading white petals, and are dark red with white tips in the upper half of the length and yellow in the basal half.",
+        "fruitingDescription": "The whole fruit and the flesh of 'Katmon' that are fully ripe had yellowish green color while the flesh is greenish. The fruit is fleshy, globose and has an average weight of 73.9g, 4.72 cm long and 5.73 cm wide."
+    },
+    "FIT-BR01": {
+        "imgUrl": [
+            "../img/tambis/tambis.jpg",
+            "../img/tambis/tambis1.jpg",
+            "../img/tambis/tambis.jpg",
+            "../img/tambis/tambis1.jpg",
+            "../img/tambis/tambis.jpg"
+        ],
+        "name": "Biriba",
+        "scientificName": "Dillenia philippinensis",
+        "description": "Katmon is a small to medium-sized evergreen tree, reaching up to 15 meters in height. It is native to the Philippines, found in low to medium altitude forests throughout the country.",
+        "otherNames": [
+            "Kalambok",
+            "Kalambug (Bagobo)",
+            "Katmon (Bikol)",
+            "Balale, Palali (Ibanag)",
+            "Palali (Iloko)",
+            "Bihis, Biskan (Igorot)",
+            "Kalamnugui (Lanao)",
+            "Palali, Pamamalien (Pangsingan)",
+            "Bolobayauak (Panay- Bisaya)",
+            "Katmon (Pampangan)",
+            "Diangin (Sambali)",
+            "Kambug (Sulu)",
+            "Katmon (Tagalog)",
+            "Elephant Apple",
+            "Hondapara Tree",
+            "Indian Catmon",
+            "Ma-tad",
+            "Chalita"
+        ],
+        "treeCycle": "Perennial",
+        "fruitingMonths": "April to May",
+        "treeStatus": "Bearing",
+        "treeSpecies": "Indigenous Fruit Tree",
+        "fruitColour": "The fruit, known as 'elephant apple,' is globose, 5-6 cm across, with a soft, fleshy, green, and edible pulp.",
+        "pestIdentified": [
+            "Fruit borers",
+            "Fruit flies",
+            "Aphids"
+        ],
+        "floweringDescription": "Flowers are large, white, showy, and about 15 cm across. They consist of five pale green cup-shaped sepals, five obovate and spreading white petals, and are dark red with white tips in the upper half of the length and yellow in the basal half.",
+        "fruitingDescription": "The whole fruit and the flesh of 'Katmon' that are fully ripe had yellowish green color while the flesh is greenish. The fruit is fleshy, globose and has an average weight of 73.9g, 4.72 cm long and 5.73 cm wide."
+    }
+}
